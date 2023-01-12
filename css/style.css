@@ -21,3 +21,8 @@ header{
     border-radius: 15px;
 }
 
+/* about us */
+.about_us{
+    background-color: hsl(168deg 76% 42%);
+    color: white;
+}
