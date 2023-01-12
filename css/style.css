@@ -3,7 +3,21 @@ header{
     background-color: hsl(210deg 29% 24%);
     color: white;
 }
+
+/* jumbo */
 .jumbotron{
     background-color: hsl(168deg 76% 42%);
     color: white;
 }
+.jumbotron img{
+    height: 50px;
+}
+
+/* portfolio */
+.portfolio{
+    color: blue;
+}
+.portfolio img{
+    border-radius: 15px;
+}
+
