@@ -26,3 +26,19 @@ header{
     background-color: hsl(168deg 76% 42%);
     color: white;
 }
+
+/* contact me */
+
+
+/* contacts */
+.contacts{
+    background-color: #3a546d;
+    color: white;
+}
+
+/* footer */
+footer{
+    background-color: hsl(210deg 29% 24%);
+    color: white;
+    font-size: 8px;
+}
