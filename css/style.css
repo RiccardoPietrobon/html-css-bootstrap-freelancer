@@ -2,8 +2,11 @@
 .navbar{
     background-color: hsl(210deg 29% 24%) !important;
 }
-.navbar-brand, .navbar-toggler-icon, 
+.navbar-brand, .navbar-toggler, 
 .nav-link{
+    color: white !important;
+}
+#menu{
     color: white !important;
 }
 
@@ -65,11 +68,21 @@
 
 /* contact me */
 
-
+#email,
+#Name,
+#number,
+#message{
+    width: -webkit-fill-available;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
 /* contacts */
 .contacts{
     background-color: #3a546d;
     color: white;
+}
+.contacts input{
+    width:inherit;
 }
 
 /* footer */

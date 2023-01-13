@@ -30,7 +30,7 @@
 				<a class="navbar-brand" href="#">START BOOTSTRAP</a>
 				<button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+					<span id="menu" class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
 					<ul class="navbar-nav">
@@ -126,7 +126,7 @@
 					vitae.</p>
 				</div>
 				<div class="col-auto">
-					<button class="btn-aqua p-1">
+					<button class="btn-aqua p-2">
 						<i class="fa-solid fa-download"></i>
 						Download
 					</button>
@@ -136,34 +136,60 @@
 	</div>
 <!-- contact me -->
 	<div class="contact_me">
-		<div class="container-sm d-flex flex-column py-4 align-items-center">
-			<a name="contact_me_anc">
-				<h2>CONTACT ME</h2>
-			</a>
-			<hr>
-			<div class="credenziali">Nome</div>
-			<div class="credenziali">Email Adress</div>
-			<div class="credenziali">Phone Number</div>
-			<div class="credenziali">Message</div>
-			<span class="btn-green">Send</span>
+		<div class="container-sm py-4">
+			<div class="row">
+				<div class="col-12 d-flex flex-column align-items-center text-center">
+					<a name="about_us_anc">
+						<h2>CONTACT ME</h2>
+					</a>
+					<div class="box-star">
+						<span class="star_blue d-flex align-items-center">
+							<i class="fa-solid fa-star p-2"></i>
+						</span>
+					</div>
+		
+				</div>
+			</div>
+
+			<form action="https:tizianonicolai.com/lezioni/form-printer" method="GET" class="row justify-content-center">
+				<div class="col-10">
+					<input class="py-2" type="text" id="Name" name="Name" placeholder="Nome">
+				</div>
+				<div class="col-10">
+					<input class="py-2" type="text" id="email" name="email" placeholder="Email Adress">
+				</div>
+				<div class="col-10">
+					<input class="py-2" type="text" id="number" name="number" placeholder="Phone Number">
+				</div>
+				<div class="col-10">
+					<textarea class="py-2" name="message" id="message" rows="10" placeholder="Message"></textarea>
+				</div>
+				<div class="col-10">
+					<button class="btn-aqua p-2">
+						Send
+					</button>
+				</div>
+			</form>
+
+
 		</div>
 	</div>
 
-	<div class="contacts">
-		<div class="container-md">
-			<div class="row">
-				<div class="col-12 col-md-4 text-center py-2">
-					<h5>LOCATION</h5>
-				</div>
-				<div class="col-12 col-md-4 text-center py-2">
-					<h5>LOCATION</h5>
-				</div>
-				<div class="col-12 col-md-4 text-center py-2">
-					<h5>LOCATION</h5>
+		<div class="contacts">
+			<div class="container-md">
+				<div class="row">
+					<div class="col-12 col-md-4 text-center py-2">
+						<h5>LOCATION</h5>
+					</div>
+					<div class="col-12 col-md-4 text-center py-2">
+						<h5>LOCATION</h5>
+					</div>
+					<div class="col-12 col-md-4 text-center py-2">
+						<h5>LOCATION</h5>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 	<footer>
 		<p class="text-center py-3">Copyright Your Website 2019</p>
