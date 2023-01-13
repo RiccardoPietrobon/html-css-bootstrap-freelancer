@@ -16,54 +16,86 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/12-bool.css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
 <!-- header -->
 	<header>
-		<div class="container-md">
-			<div class="row py-2">
-				<div class="col-6">
-					<h3>START BOOTSTRAP</h3>
-				</div>
-				<div class="col-6 d-flex align-items-center justify-content-end">
-					<span>burgr menu</span>
+		<nav class="navbar navbar-expand-md bg-light">
+			<div class="container-md">
+				<a class="navbar-brand" href="#">START BOOTSTRAP</a>
+				<button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#portfolio_anc">PORTFOLIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#about_us_anc">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#contact_me_anc">CONTACT</a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 	</header>
 <!-- jumbotron -->
 	<div class="jumbotron">
 		<div class="container-md d-flex flex-column align-items-center py-2">
-			<img src="./img/avatar.svg" alt="avatar">
-			<h2>START BOOTSTRAP</h2>
-			<hr>
+			<div class="box-img">
+				<img src="./img/avatar.svg" alt="img">
+			</div>
+			<h1 class="py-2">START BOOTSTRAP</h1>
+			<div class="box-star">
+				<span class="star_white d-flex align-items-center">
+					<i class="fa-solid fa-star p-2"></i>
+				</span>
+			</div>
 			<p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
 		</div>
 	</div>
 <!-- portfolio -->
 	<div class="portfolio">
 		<div class="container-md py-4">
-			<h2>PORTFOLIO</h2>
-			<hr>
+			<div class="row">
+				<div class="col-12 d-flex flex-column align-items-center text-center">
+					<a name="portfolio_anc">
+						<h2>PORTFOLIO</h2>
+					</a>
+					<div class="box-star">
+						<span class="star_blue d-flex align-items-center">
+							<i class="fa-solid fa-star p-2"></i>
+						</span>
+					</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-4 g-4">
-					<img src="./img/cake.png" alt="">
+					<img src="./img/cabin.png" alt="cabin">
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 g-4">
-					<img src="./img/cake.png" alt="">
+					<img src="./img/cake.png" alt="cake">
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 g-4">
-					<img src="./img/cake.png" alt="">
+					<img src="./img/circus.png" alt="circus">
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 g-4">
-					<img src="./img/cake.png" alt="">
+					<img src="./img/game.png" alt="game">
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 g-4">
-					<img src="./img/cake.png" alt="">
+					<img src="./img/safe.png" alt="safe">
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 g-4">
-					<img src="./img/cake.png" alt="">
+					<img src="./img/submarine.png" alt="submarine">
 				</div>
 			</div>
 		</div>
@@ -71,7 +103,9 @@
 <!-- about -->
 	<div class="about_us">
 		<div class="container-sm d-flex flex-column py-4 px-2 align-items-center">
-			<h2>ABOUT</h2>
+			<a name="about_us_anc">
+				<h2>ABOUT</h2>
+			</a>
 			<hr>
 			<div class="row py-2">
 				<div class="col-12 col-md-6">
@@ -90,7 +124,9 @@
 <!-- contact me -->
 	<div class="contact_me">
 		<div class="container-sm d-flex flex-column py-4 align-items-center">
-			<h2>CONTACT ME</h2>
+			<a name="contact_me_anc">
+				<h2>CONTACT ME</h2>
+			</a>
 			<hr>
 			<div class="credenziali">Nome</div>
 			<div class="credenziali">Email Adress</div>
@@ -119,6 +155,16 @@
 	<footer>
 		<p class="text-center py-3">Copyright Your Website 2019</p>
 	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+		crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+		integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+		crossorigin="anonymous">
+	</script>
 </body>
 
 </html>

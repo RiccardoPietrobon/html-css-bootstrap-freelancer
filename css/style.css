@@ -1,7 +1,10 @@
 /* header */
-header{
-    background-color: hsl(210deg 29% 24%);
-    color: white;
+.navbar{
+    background-color: hsl(210deg 29% 24%) !important;
+}
+.navbar-brand, .navbar-toggler-icon, 
+.nav-link{
+    color: white !important;
 }
 
 /* jumbo */
@@ -9,13 +12,38 @@ header{
     background-color: hsl(168deg 76% 42%);
     color: white;
 }
-.jumbotron img{
-    height: 50px;
+.jumbotron .box-img{
+    width: 250px;
+    min-width: 100px;
+}
+
+/* star */
+.box-star{
+    position: relative;
+}
+
+.star_white::after,
+.star_white::before{
+    height: 2px;
+    width: 60px;
+    content: "";
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+}
+
+.star_blue::after,
+.star_blue::before {
+    height: 2px;
+    width: 60px;
+    content: "";
+    background-color: hsl(210deg 29% 24%);
+    display: block;
 }
 
 /* portfolio */
 .portfolio{
-    color: blue;
+    color: hsl(210deg 29% 24%)
 }
 .portfolio img{
     border-radius: 15px;
