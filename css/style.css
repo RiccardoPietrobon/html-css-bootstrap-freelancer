@@ -2,13 +2,7 @@
 .navbar{
     background-color: hsl(210deg 29% 24%) !important;
 }
-.navbar-brand, .navbar-toggler, 
-.nav-link{
-    color: white !important;
-}
-#menu{
-    color: white !important;
-}
+
 
 /* jumbo */
 .jumbotron{
