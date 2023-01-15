@@ -76,18 +76,35 @@
     border: none;
     border-bottom: 1px solid lightgray;
 }
-/* contacts */
-.contacts{
-    background-color: #3a546d;
-    color: white;
-}
-.contacts input{
-    width:inherit;
-}
 
 /* footer */
-footer{
+.copyright{
     background-color: hsl(210deg 29% 24%);
     color: white;
     font-size: 8px;
+}
+
+/* social */
+.social{
+    background-color: #3a546d;
+    color: white;
+}
+.social input{
+    width:inherit;
+}
+.social .fa-brands{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: inherit;
+}
+#green_bot{
+    color: hsl(168deg 76% 42%);
+}
+.social .fa-brands:hover{
+    cursor: pointer;
+    color: hsl(168deg 76% 42%);
+    border: 1px solid hsl(168deg 76% 42%);
 }
